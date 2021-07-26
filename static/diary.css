@@ -1,0 +1,76 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  border: 1px;
+  background: #a9a9a9;
+}
+
+.diary-calander {
+  border: 1px solid rgb(223, 223, 223);
+  padding: 5px;
+  font-family: "NeoDunggeunmo";
+  font-size: 110%;
+  margin-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+}
+
+.calander-today {
+  flex: 0.1;
+  text-align: center;
+  margin: 0px 5px 0px 0px;
+  color: green;
+}
+.calander-date {
+  flex: 1;
+}
+
+.calander-date > div {
+  display: inline-block;
+  text-align: center;
+  margin: 3px;
+  width: 10px;
+  color: grey;
+}
+
+.diary-box {
+  height: 430px;
+  align-items: center;
+  overflow: scroll;
+}
+.diary-posting {
+  border: 1px solid rgb(223, 223, 223);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.posting-date {
+  font-family: "NeoDunggeunmo";
+  color: green;
+  margin-bottom: 20px;
+}
+
+.posting-content {
+  font-family: "KyoboHand";
+  text-align: center;
+}
+
+.diary-button {
+  border-radius: 5px;
+  font-family: "NeoDunggeunmo";
+  background-color: white;
+  color: white;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  width: 30%;
+  transition: 400ms ease-in-out;
+}
+
+.diary-button:hover {
+  background-color: green;
+  color: white;
+  transition: 400ms ease-in-out;
+}

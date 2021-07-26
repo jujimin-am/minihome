@@ -1,0 +1,56 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  border: 1px;
+  background: #a9a9a9;
+}
+
+.guestbox01 {
+  height: 490px;
+  font-family: "KyoboHand";
+
+  overflow-y: scroll;
+}
+.guestbox {
+  width: 450px;
+  margin: 20px 0px 50px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.guestbox-profile {
+  flex: 0.4;
+  height: 8rem;
+  background-size: cover;
+  margin-right: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.guestbox-profile > img {
+  height: 80%;
+}
+.background-1 {
+  background-image: url("./images/guest-profile_bg01.png");
+}
+
+.background-2 {
+  background-image: url("./images/guest-profile_bg02.jpeg");
+}
+
+.background-3 {
+  background-image: url("./images/guest-profile_bg03.png");
+}
+.guestbox-text {
+  flex: 1;
+  margin: auto 0;
+}
+
+.guesttitle {
+  background-color: rgb(233, 233, 233);
+  padding: 10px;
+  font-family: "NeoDunggeunmo";
+}

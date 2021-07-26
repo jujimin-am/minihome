@@ -1,0 +1,33 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  border: 1px;
+  background: #a9a9a9;
+}
+
+.photobox01 {
+  height: 490px;
+  font-family: "KyoboHand";
+
+  overflow-y: scroll;
+}
+.photobox {
+  width: 450px;
+  margin: 15px 15px 50px 15px;
+}
+
+.photosrc {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.phototitle {
+  background-color: rgb(233, 233, 233);
+  padding: 10px;
+  font-family: "NeoDunggeunmo";
+}
+
+.date {
+  font-size: 70%;
+}

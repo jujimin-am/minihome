@@ -1,0 +1,53 @@
+.postbox {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.categorybox {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+.post {
+  flex: 0.1;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.category-gallery {
+  background-color: rgb(255, 121, 121);
+  border-radius: 5px;
+  color: white;
+  padding: 2px 4px 2px 4px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+.category-board {
+  background-color: rgb(100, 154, 255);
+  border-radius: 5px;
+  color: white;
+  padding: 2px 4px 2px 4px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+.category1 {
+  flex: 0.1;
+  border-bottom: 1px dashed;
+  margin-top: 5px;
+
+  display: flex;
+}
+
+.category2 {
+  flex: 1;
+}
+.number {
+  font-family: "NeoDunggeunmo";
+  color: rgb(243, 75, 33);
+}
